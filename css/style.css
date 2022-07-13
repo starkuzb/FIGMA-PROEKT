@@ -1,0 +1,305 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+ }
+ul ,ol {
+    list-style: none;
+
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+   width: 1140px;
+   margin: 0 auto;
+}
+.header {
+    
+    background: radial-gradient(100% 100% at 50% 0%, #504A93 0%, #413E65 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.navbar .container {
+    display: flex;
+    align-items: center;
+  
+
+}
+.nav_list {
+    margin-left: auto;
+    display: flex;
+    
+}
+.nav_link {
+    color: white;
+    margin: 0 15px;
+    transition: .5s;
+    margin-top: 20px;
+}
+.nav_link:hover {
+    color: red;
+
+}
+.nav_wrapper {
+    color: white;
+    background: #F0544C;
+    border: 1px solid #C31A12;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: 0.3s;
+    margin-top: 20px;
+    box-shadow: 1px 1px #C31A12;
+}
+.nav_wrapper:hover{
+    background-color: rgb(252, 248, 248);
+    color: red;
+}
+.nav_first{
+    color: white;
+}
+.text{
+    display: inline-block;
+    width: 40%;
+    
+}
+.textp{
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 21px;
+    line-height: 29px;
+    color: #FFFFFFB2;
+
+    
+}
+.texth {
+    /* display: inline-block; */
+    color: white;
+    font-size: 60px;
+    line-height: 54px;
+}
+.main .container {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 80px;
+}
+.imggg { 
+    width: 60%;    
+}
+.btntext{
+    color: white;
+    margin-top: 7px;
+
+}
+
+
+.mobile {
+    display: inline-block;
+    width: 30%;
+    margin-left: 30px;
+    margin-top: 80px;
+    /* margin-right: 40px; */
+  
+}
+.fimg {
+  width: 30px;
+  /* margin-left:70px ; */
+}
+.ftext {
+    text-align: left;
+}
+.mh {
+    font-size: 24px;
+    line-height: 28px;
+    color: #19191B;
+    margin-top: 10px;
+}
+.mp {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 10px;
+    color: #696871;
+}
+.mhh {
+    color: rgb(86 , 86 , 250);
+    margin: 20px;
+}
+.desktop {
+    display: inline-block;
+    width: 30%;
+    margin: 0px 35px 0px 35px;
+
+}
+.tv {
+    display: inline-block;
+    width: 30%;
+}
+
+.section{
+    margin-top: 50px;
+    border-top: 1px solid #EAE9F2;
+}
+.sectionul {
+    display: inline-block;
+    width: 100%;
+    
+    margin-top: 5%;
+}
+
+.sectionli {
+    display: inline-block;
+    
+    margin-right: 4%;
+    margin-left: 5%;
+    /* height: 60px; */
+}
+.d3 {
+    display: flex;
+    margin-left: 190px;
+}
+
+.make{
+    background: #F7F7FB;
+    margin-top: 30px;
+}
+.make .container {
+    display: flex;
+}
+.d4_text {
+    margin-top: 20%;
+    font-size: 25px;
+  width: 35%;
+}
+.p2{
+    color:#696871 ;
+    width: 700px;
+    margin-top: 40px;
+    padding-right: 150px;
+}
+
+
+.inbox .container {
+    display: flex;
+    align-items: center;
+} 
+.inbox-img {
+ margin-top: 150px;
+ width: 60%;
+}
+
+
+.inbox-text{
+    width: 550px;
+    height: 100px;
+    font-size: 60px
+    
+
+}
+.create {
+    margin-top: 80px;
+    width: 70%;
+    font-size: 21px;
+    color: #696871;
+}
+
+.inboxBox {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+
+}
+
+.inboxWrap {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+.h3_text {
+    width: 40%;
+    color: #696871;
+    font-family: 'CircularStd';
+    margin-top: 15px;
+   margin-left: 20px;
+}
+.h3_2text {
+    width: 40%;
+    color: #696871;
+    font-family: 'CircularStd';
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.h3 {
+    margin-left: 20px;
+}
+.h3-2 {
+    margin-left: 20px;
+}
+.love {
+    background-color: #F7F7FB;
+
+}
+.love_text{
+    text-align: center;
+    font-size: 60px;
+    
+}
+.love_p {
+    font-size: 30px;
+    width: 60%;
+    color: #696871;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+ .love_img{
+  width: 300px;
+  
+}
+.love_h5 {
+   width: 30%;
+}
+.human .container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 30px;
+
+    
+}
+.human {
+    /* border: 1px solid black; */
+    display: flex;
+    margin-left: 300px;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    justify-content: space-around;
+    padding-top: 50px;
+    border: 1px solid black;  
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    padding: 30px;
+    width: 60%;
+    
+
+
+}
+.love_text2 {
+    /* margin-left: 400px; */
+    font-family: 'CircularStd';
+    color: #19191B;
+    margin-left: 25%;
+    font-size: 21px;
+      
+    
+
+}
